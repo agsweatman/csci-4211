@@ -1,0 +1,86 @@
+Running the server on port 5001
+Reading lorem100000.txt
+Received num 1, expected 0
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 1, expected 0
+Received num 1, expected 0
+Received num 1, expected 0
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 1, expected 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 1, expected 0
+Received num 1, expected 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 1, expected 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 1 is corrupt, sending back ACK 0
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Received num 1, expected 0
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Received num 1, expected 0
+Received num 0, expected 1
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Received num 1, expected 0
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 1, expected 0
+Received num 0, expected 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 1, expected 0
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Received num 1, expected 0
+Received num 1, expected 0
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 0, expected 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 0, expected 1
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Received num 1, expected 0
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 1 is corrupt, sending back ACK 0
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Packet 1 is corrupt, sending back ACK 0
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 1, expected 0
+Received num 0, expected 1
+Received num 0, expected 1
+Received num 0, expected 1
+Packet 0 is corrupt, sending back ACK 1
+Done!

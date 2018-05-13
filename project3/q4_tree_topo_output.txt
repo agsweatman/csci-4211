@@ -1,0 +1,25 @@
+mininet@mininet-vm:~/project3$ sudo python q4_tree_topo.py
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8
+*** Adding switches:
+a1 a2 c1 e1 e2 e3 e4
+*** Adding links:
+(100.00Mbit 30ms delay) (100.00Mbit 30ms delay) (a1, c1) (100.00Mbit 30ms delay) (100.00Mbit 30ms delay) (a2, c1) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (e1, a1) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (e2, a1) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (e3, a2) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (e4, a2) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h1, e1) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h2, e1) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h3, e2) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h4, e2) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h5, e3) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h6, e3) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h7, e4) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (h8, e4)
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8
+*** Starting controller
+c0
+*** Starting 7 switches
+a1 a2 c1 e1 e2 e3 e4 ...(100.00Mbit 30ms delay) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (100.00Mbit 30ms delay) (40.00Mbit 20ms delay) (40.00Mbit 20ms delay) (100.00Mbit 30ms delay) (100.00Mbit 30ms delay) (40.00Mbit 20ms delay) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (40.00Mbit 20ms delay) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (40.00Mbit 20ms delay) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay) (40.00Mbit 20ms delay) (10.00Mbit 10ms delay) (10.00Mbit 10ms delay)
+*** Ping: testing ping reachability
+h1 -> h2 h3 h4 h5 h6 h7 h8
+h2 -> h1 h3 h4 h5 h6 h7 h8
+h3 -> h1 h2 h4 h5 h6 h7 h8
+h4 -> h1 h2 h3 h5 h6 h7 h8
+h5 -> h1 h2 h3 h4 h6 h7 h8
+h6 -> h1 h2 h3 h4 h5 h7 h8
+h7 -> h1 h2 h3 h4 h5 h6 h8
+h8 -> h1 h2 h3 h4 h5 h6 h7
+*** Results: 0% dropped (56/56 received)

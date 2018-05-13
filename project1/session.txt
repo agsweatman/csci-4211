@@ -1,0 +1,32 @@
+Type in a domain name to query, or 'q' to quit:
+www.google.com
+Received: Local DNS:www.google.com:173.194.197.105
+Type in a domain name to query, or 'q' to quit:
+www.umn.edu
+Received: Root DNS:www.umn.edu:134.84.119.7
+Type in a domain name to query, or 'q' to quit:
+www.umn.edu
+Received: Local DNS:www.umn.edu:134.84.119.7
+Type in a domain name to query, or 'q' to quit:
+www.multiple.com
+Received: Local DNS:www.multiple.com:216.58.216.238
+Type in a domain name to query, or 'q' to quit:
+www.multiple.com
+Received: Local DNS:www.multiple.com:216.58.216.78
+Type in a domain name to query, or 'q' to quit:
+www.multiple.com
+Received: Local DNS:www.multiple.com:216.58.216.78
+Type in a domain name to query, or 'q' to quit:
+this is not a hostname
+Received: Invalid format
+Type in a domain name to query, or 'q' to quit:
+this is not a hostname
+Received: Invalid format
+Type in a domain name to query, or 'q' to quit:
+this.does.not.exist
+Received: Root DNS:this.does.not.exist:Host not found
+Type in a domain name to query, or 'q' to quit:
+this.does.not.exist
+Received: Local DNS:this.does.not.exist:Host not found
+Type in a domain name to query, or 'q' to quit:
+q

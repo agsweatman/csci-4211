@@ -1,0 +1,21 @@
+CSCI 4211
+Project 3
+
+huhnx025 - Jon Huhn
+larse702 - Zachary Larsen
+
+Section 1
+
+1. Detailed information of the data structures and its purpose.
+
+The only data structure we maintain is a map from MAC addresses to port numbers. Its purpose is to match packets' destinations to outgoing interfaces of the switch.
+
+2. Pseudo code which specifies how your algorithm works, how the internal data structures are used and updated, which fields from the packets/events are used by your logic.
+
+function _handlePacketIn(event)
+  mac_to_port[event.packet.src] = event.port
+  if event.packet.dst is a key in mac_to_port
+    push a flow entry to the switch to forward packets matching this one through port mac_to_port[event.packet.dst]
+    send received packet out port mac_to_port[event.packet.dst]
+  else
+    broadcast packet to every port except event.port

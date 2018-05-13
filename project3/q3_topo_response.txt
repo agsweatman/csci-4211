@@ -1,0 +1,24 @@
+CSCI 4211
+Project 3
+
+huhnx025 - Jon Huhn
+larse702 - Zachary Larsen
+
+Section 3
+Is it possible for you to estimate the throughput and latency of individual
+links between switches, viz, L1, L2, L3 and L4?
+
+Yes. Latency can be estimated using ping. The approximate latency along a link
+is half of the average round-trip time for a ping, since one round trip requires
+traversing the link twice. The latency along each link can be estimated by
+measuring average ping delay between two machines connected by the link.
+Throughput over a link can be estimated using iperf between two hosts separated
+by the link. Estimated latencies and throughputs for each link are as follows:
+
+L1: 40ms, 20mbps
+L2: 10ms, 40mbps
+L3: 20ms, 30mbps
+L4: 30ms, 20mbps
+
+Output for each of the commands we used to estimate values can be found in
+q3_topo_output.txt.
